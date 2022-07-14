@@ -1,6 +1,7 @@
 from nltk import word_tokenize
 import difflib
 import pymorphy2
+
 morph = pymorphy2.MorphAnalyzer()
 
 class KeyWord:
