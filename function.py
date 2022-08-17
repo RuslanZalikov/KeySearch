@@ -11,7 +11,7 @@ class KeyWord:
         return f"{self.text}"
 
 class Word:
-    def __init__(self, word, index, rate=0,):
+    def __init__(self, word, index, rate=0):
         self.word = morph.normal_forms(word)[0]
         self.rate = rate
         self.index = index
